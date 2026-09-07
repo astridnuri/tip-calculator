@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&display=swap');
+
+html{
+    font-size: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: #4d4d4d;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+main{
+    max-width: 50rem;
+    margin: 2rem auto;
+    background: linear-gradient(30deg, #6bebeb, #12cb97) ;
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 4px 5px 15px -1px rgba(0,0,0,0.73);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+section{
+    background-color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    box-shadow: inset 1px 2px 10px -1px rgba(0,0,0,0.73)
+}
+
+section>div{
+    padding: 1rem 0;
+}
+
+.bill {
+    display: flex;
+}
+
+.bill label {
+    flex: 1;
+    align-self: center;
+}
+
+.bill input {
+    flex: 3;
+}
+
+input[type="number"] {
+    background: #f4f4f5;
+    font-family: inherit
+    font-size: 1.6rem;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    box-shadow: inset 1px 2px 10px -1px rgba(0,0,0,0.73);
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.total {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1rem;
+    background: lightgray;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    outline: 0.2rem solid #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background: #5bceae;
+    border-radius: 50%;
+    cursor: pointer;
+    /* outline: 0.2rem solid #1e9e7a; */
+}
