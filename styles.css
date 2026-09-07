@@ -12,6 +12,10 @@ html{
     "wdth" 100;
 }
 
+#favicon{
+    border-radius: 50%;
+}
+
 main{
     max-width: 50rem;
     margin: 2rem auto;
